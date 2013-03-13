@@ -508,7 +508,7 @@ var tcheck = {
 			But if you still have any concern about the individual use of the API, please contact the respective owener/developer of the application.
 			He will be happy to answer your questions.
 		*/
-		var signKey = "MIIBOgIBAAJBAKmdPwOOsmcV6i18/N9ageyLkEFfqn4N6zPy+9MUPMzkFfNLNLl5keJ0FxDAiSaEmdj9XAriaAWr/DFrDVGRKq8CAwEAAQJAUTdXVge9CzlmIZPorbZz4eVOFM+PHr7hccWWqZLWLjD9SKzwXK2U7/qEAC9l2ls1m5SyIKQo8lRniPTR7e2avkWbMX/EI7q5MW6LY2D3kYBJJTvZ7zswvMyuCDzwacZtVhdLiPeJ3UDwh9MCQBEjPFkQcVJ30dinH9BwZr6SCrhiu6Ar0tP7VGK5SYM07zn5KkfH2e+Lroq1C0X4CPi6fkIGi8s6TZjrN5nj+m0CQBtJ+H1GFez16vOc3yAb/Qc5fu2enAb1dZ8qIcQlkN7X";
+		var signKey = "";
 		var baseURL = "https://partner.sixt.de";
 		var basePath = "/php/res/";
 		
