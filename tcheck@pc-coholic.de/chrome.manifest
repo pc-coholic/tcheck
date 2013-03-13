@@ -1,0 +1,8 @@
+content    tcheck     chrome/content/
+
+skin       tcheck     classic             chrome/skin/
+
+overlay   chrome://browser/content/browser.xul                       chrome://tcheck/content/overlay.xul
+
+style     chrome://browser/content/browser.xul                       chrome://tcheck/skin/style.css
+

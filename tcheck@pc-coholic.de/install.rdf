@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>tcheck@pc-coholic.de</em:id>
+    <em:name>AV Tarif Check</em:name>
+    <em:version>1.0</em:version>
+    <em:creator>Martin Gross</em:creator>
+    <em:contributor>Christopher Finke</em:contributor>
+    <em:contributor>Philipp Schmieder</em:contributor>
+    <em:description>Ein Tool zum Überprüfen von Mietwagentarifen</em:description>
+    <em:iconURL>chrome://tcheck/skin/icon.png</em:iconURL>
+    <em:homepageURL>http://tcheck.pc-coholic.de/</em:homepageURL>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- firefox -->
+        <em:minVersion>2.0</em:minVersion>
+        <em:maxVersion>3.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

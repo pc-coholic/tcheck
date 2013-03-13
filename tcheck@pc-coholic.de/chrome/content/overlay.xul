@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay SYSTEM "chrome://tcheck/locale/locale.dtd">
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://tcheck/content/tcheck.js"></script>
+	<script type="application/x-javascript" src="chrome://tcheck/content/md5.js"></script>
+	<script type="application/x-javascript">
+		<![CDATA[
+			window.addEventListener("load", function () { tcheck.onload(); }, false);
+		]]>
+	</script>
+</overlay>
